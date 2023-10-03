@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/raggae.css" />
+    
+</head>
+<body>
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="Logo" style="width:100px;">
+    </a>
+    <h1>REVENU-QUEBEC</h1>
+    <hr />
+    <h2>Calcul des deductions avantages</h2>
+    <br />
+
+    <table id="tableau">
+        <tr>
+            <td>votre nom :</td>
+            <td>
+                <input type="text" id="txtNom" class="boite" />
+            </td>
+        </tr>
+        <tr>
+            <td>votre sexe :</td>
+            <td>
+                <label>
+                    <input type="radio" id="radSexeHomme" name="genre" value="homme"> Homme
+
+                </label>
+                <br>
+                <label>
+                    <input type="radio" id="radSexeFemme" name="genre" value="femme"> Femme
+
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>votre Salaire :</td>
+            <td>
+                <input type="text" id="txtSalaire" class="boite" /> $
+            </td>
+        </tr>
+        <tr>
+            <td>Etes-vous marie ?</td>
+            <td>
+                <input type="checkbox" id="cBoxMariee" value="oui">
+
+            </td>
+        </tr>
+        <tr>
+            <td>Nombre d' enfants :</td>
+            <td>
+                <select id="listNbrEnfant">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr class="centrer">
+            <td>
+                <input type="button" value="Calculer" id="btnCalculer" class="bouton" onclick="calculer()" />
+            </td>
+            <td>
+                <input type="button" value="Recommencer" id="btnRecommencer" class="bouton" onclick="recommencer()" />
+            </td>
+        </tr>
+        <tr class="centrer">
+            <td colspan="2">
+                <p id="parResultat"></p>
+            </td>
+        </tr>
+    </table>
+    <hr />
+    <div id="photoRQ">
+        <img src="images/imageRQ.png" alt="Image de Revenu-Quebec" style="max-width: 100%;" />
+    </div>
+    <script src="script/JavaScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿body {
+   
+}
+ h1 {
+    text-align: center;
+    background-color: deepskyblue;
+    display: inline-block;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
+
+.boite {
+    width: 180px;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+}
+.bouton {
+    width: 100px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+.resultat, p {
+    width: 100%;
+    font-weight: bold;
+    color: yellow;
+    background-color: red;
+}
+#tableau {
+    margin: auto;
+    width: 400px;
+    font-weight: bold;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    text-align: center;
+}
+#photoRQ {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+.centrer {
+    text-align: center;
+}
